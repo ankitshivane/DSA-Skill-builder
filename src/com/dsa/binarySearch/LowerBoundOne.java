@@ -2,8 +2,8 @@ package com.dsa.binarySearch;
 
 public class LowerBoundOne {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 3, 5, 8, 8, 10, 10, 11};
-        int target = 10;
+        int[] arr = {2,5,5,5,8};
+        int target = 4;
         int ans = findLowerBoundIndex(arr, target, arr.length);
         System.out.println(ans);
     }
