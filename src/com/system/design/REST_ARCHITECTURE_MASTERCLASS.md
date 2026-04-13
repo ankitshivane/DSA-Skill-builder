@@ -19,7 +19,7 @@
 
 - REST proposes clear rules so that:
 * Clients and servers can evolve independently
-* Systems can scale effectively to milions of users
+* Systems can scale effectively to millions of users
 * APIs can be designed in a consistent and standardized way
 
 ## 3. Core idea of REST
