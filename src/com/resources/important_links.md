@@ -21,3 +21,17 @@
 * https://neetcode.io/roadmap
 * https://algomaster.io/practice/dsa-patterns
 * [practice-on-GFG](https://www.geeksforgeeks.org/explore?page=3&category=Arrays&difficulty=Basic&sortBy=submissions)
+* https://algo.monster/flowchart
+* https://leetcode.com/discuss/post/3629570/bit-manipulation-basics-for-beginners-co-92g0/
+* https://interviewkickstart.com/blogs/learn/insertion-sort
+
+* https://www.designgurus.io/blog/system-design-interview-library
+
+* https://algo.monster/liteproblems/9
+
+* https://www.geeksforgeeks.org/dsa/bits-manipulation-important-tactics/
+
+* https://leetcode.com/discuss/post/1688903/solved-all-two-pointers-problems-in-100-z56cn/
+
+* https://daily.dev/posts/19-30-days-system-design-questions--5nmnjh8a4
+
