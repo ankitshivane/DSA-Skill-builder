@@ -7,6 +7,7 @@
 * [how-to-start-dsa-data-structures-algorithms-as-a-beginner](https://dev.to/wittedtech-by-harshit/how-to-start-dsa-data-structures-algorithms-as-a-beginner-150j)
 * [mastering-dsa-with-pen-and-paper-unplug](https://dev.to/wittedtech-by-harshit/mastering-dsa-with-pen-and-paper-unplug-and-think-like-a-problem-solver-2fpk)
 * https://leetcode.com/discuss/post/7483322/ultimate-binary-search-master-list-for-a-yes1/
+* https://algo.monster/flowchart
 * https://leetcode.com/discuss/post/5886397/dsa-patterns-you-need-to-know-by-anubhav-x7og/
 * [Best_DSA_QUE_SHEET_1](https://leetcode.com/discuss/post/7479312/top-300-most-asked-dsa-questions-for-ama-c656/)
 * https://leetcode.com/discuss/post/7483292/ultimate-linked-list-master-list-for-ama-knw1/
@@ -21,17 +22,11 @@
 * https://neetcode.io/roadmap
 * https://algomaster.io/practice/dsa-patterns
 * [practice-on-GFG](https://www.geeksforgeeks.org/explore?page=3&category=Arrays&difficulty=Basic&sortBy=submissions)
-* https://algo.monster/flowchart
 * https://leetcode.com/discuss/post/3629570/bit-manipulation-basics-for-beginners-co-92g0/
 * https://interviewkickstart.com/blogs/learn/insertion-sort
-
 * https://www.designgurus.io/blog/system-design-interview-library
-
 * https://algo.monster/liteproblems/9
-
 * https://www.geeksforgeeks.org/dsa/bits-manipulation-important-tactics/
-
 * https://leetcode.com/discuss/post/1688903/solved-all-two-pointers-problems-in-100-z56cn/
-
 * https://daily.dev/posts/19-30-days-system-design-questions--5nmnjh8a4
 
