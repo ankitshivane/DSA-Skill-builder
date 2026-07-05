@@ -2,7 +2,7 @@ package com.coding.warmup;
 
 import java.util.ArrayList;
 
-public class _MinMaxGfg {
+public class _5MinMaxGfg {
     /**
      * https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&category=Arrays,Strings&difficulty=Basic&sortBy=submissions
      */
