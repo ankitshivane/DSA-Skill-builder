@@ -78,3 +78,6 @@ Answer is 3
 
 ---
 
+Interview Observation:
+* whenever you see "all numbers appear twice except one" think XOR immediately
+* 
