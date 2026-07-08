@@ -15,19 +15,19 @@
 
 # Properties Must be memorize for DSA
 
-###  * Property 1
+###   * Property 1
 
 * `a ^ 0 = a`
 * For Example ` 5 ^ 0 = 5` Lets learn how: `101 ^ 000 => 101`
 * Because 0 doesn't change anything.
 
-###  * Property 2 (THE MOST IMPORTANT)
+###   * Property 2 (THE MOST IMPORTANT)
 
 * `a ^ a = 0`
 * For Example `5 ^ 5 = 0`  -> `101 ^ 101 = 000` (nothing but 0)
 * because as per XOR rule same bits gives 0 (cancel out)
 
-###  * Property 3
+###   * Property 3
 
 * `a ^ b ^ a = b`
 * Because `(a ^ a) ^ b` becomes `0 ^ b = b` (refer property 2 for this result)
@@ -40,7 +40,7 @@
 = 0100 which is nothing but 4 hence proved
 ```
 
-###  * Property 4
+###   * Property 4
 
 * In XOR Order doesn't matter
 * `a ^ b = b ^ a`
@@ -58,7 +58,7 @@ now do (4 ^ 7)
 hence proved 0011=0011 that is a ^ b = b ^ a
 ```
 
-###  * Property 5
+###   * Property 5
 
 * Grouping doesn't matter
 * `(a ^ b) ^ c = a ^ (b ^ c)`
@@ -69,6 +69,7 @@ hence proved 0011=0011 that is a ^ b = b ^ a
 
 * because you can rearrange XORs however you want.
 * Example:
+
 ```
 1 ^ 2 ^ 3 ^ 2 ^ 1
 If we rearrange as, 1 ^ 1 ^ 2 ^ 2 ^ 3
@@ -79,5 +80,10 @@ Answer is 3
 ---
 
 Interview Observation:
+
 * whenever you see "all numbers appear twice except one" think XOR immediately
-* 
+* XOR is not a weird operator, think like XOR is a perfect "Duplication remover" because `x^x=0`
+* Pattern 1: Every element occurs twice except one
+* Pattern 2: Every element occurs an even number of times except one
+* Pattern 3: Missing number
+* Pattern 4: A pair cancels out

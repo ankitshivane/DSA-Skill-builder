@@ -6,8 +6,8 @@ public class _2MissingNumber {
         int[] arr = {3, 1, 0};
         System.out.println(findMissingNumber(arr, arr.length)); // Output: 2
 
-        int[] arr2 = {0, 1, 2, 3};
-        System.out.println(findMissingNumber(arr2, arr2.length)); // Output: 4
+        int[] arr2 = {20,22,23};
+        System.out.println(findMissingNumber(arr2, arr2.length)); // Output: 21
     }
 
     private static int findMissingNumber(int[] arr, int length) {
