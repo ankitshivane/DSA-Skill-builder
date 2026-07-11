@@ -1,0 +1,7 @@
+# Ignore heavy binary resources
+docs/complexities/*.webp
+docs/complexities/*.png
+docs/resources/*.xlsx
+docs/resources/*.jpg
+docs/resources/*.pdf
+docs/resources/*.docx
