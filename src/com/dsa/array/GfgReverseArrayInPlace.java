@@ -2,11 +2,10 @@ package com.dsa.array;
 
 import java.util.Arrays;
 
-public class ReverseArrayInPlace {
+public class GfgReverseArrayInPlace {
     /**
      * Ques:
      * https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/reverse-an-array
-     * @param args
      */
     public static void main(String[] args) {
         int[] arr = {1, 4, 3, 2, 6, 5};

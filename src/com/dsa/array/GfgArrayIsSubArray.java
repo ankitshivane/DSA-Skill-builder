@@ -2,21 +2,36 @@ package com.dsa.array;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class GfgArrayIsSubArray {
     /**
      * https://www.geeksforgeeks.org/dsa/find-whether-an-array-is-subset-of-another-array-set-1/
      *
-     * @param args
      */
     public static void main(String[] args) {
-        int[] a = {1, 2, 2};
+        int[] a = {1, 2, 2, 1};
         int[] b = {1, 1};
-//        int[] a = {1,1};
-//        int[] b = {1,1};
 //        System.out.println(isSubset1(a, b));
 //        System.out.println(isSubset2(a, b)); // this is wrong, solution is incomplete need to do more
-        System.out.println(isSubsetOptimal(a, b));
+        System.out.println(isSubsetOptimal(a, b)); //true
+        System.out.println(isSubsetOptimal2(a, b)); //true
+    }
+
+    private static boolean isSubsetOptimal2(int[] arr, int arr2[]) {
+        Map<Integer, Integer> mp = new HashMap<>();
+        for (int i = 0; i < arr.length; i++) {
+            mp.put(arr[i], mp.getOrDefault(arr[i], 0) + 1);
+        }
+
+        for (int i = 0; i < arr2.length; i++) {
+            if (!mp.containsKey(arr2[i]) || (mp.get(arr2[i]) <= 0)) {
+                return false;
+            }
+            mp.put(arr2[i], mp.getOrDefault(arr2[i], 0) - 1);
+        }
+        return true;
     }
 
     private static boolean isSubset1(int[] a, int[] b) {

@@ -1,6 +1,9 @@
 package com.dsa.array;
 
-public class CheckIfArrayIsSorted {
+public class GFGCheckIfArrayIsSorted {
+    /**
+     * https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
+     */
     public static void main(String[] args) {
         int[] arr={1,2,3,4,5};
         System.out.println(arraySortedOrNot(arr)); // true
@@ -9,6 +12,9 @@ public class CheckIfArrayIsSorted {
         System.out.println(arraySortedOrNot(arr2)); //false
     }
         private static boolean arraySortedOrNot(int[] arr) {
+            if (arr == null || arr.length <= 1) {
+                return true;
+            }
             // loop to check if any current element is lesser than its previous element then arr is not
             // sorted
             // Basically Iterate through the array to check for out-of-order elements".

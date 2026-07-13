@@ -5,9 +5,8 @@ import java.util.ArrayList;
 public class _10GFGValueEqualToPosition {
     /**
      * Value equal to position
-     * https://www.geeksforgeeks.org/problems/value-equal-to-index-value1330/1?page=1&category=Arrays,Strings&difficulty=Basic&sortBy=submissions
+     * https://www.geeksforgeeks.org/problems/value-equal-to-index-value1330/1
      *
-     * @param args
      */
     public static void main(String[] args) {
         int[] arr = {15, 2, 45, 4, 7};

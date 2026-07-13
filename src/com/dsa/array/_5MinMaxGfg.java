@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class _5MinMaxGfg {
     /**
-     * https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&category=Arrays,Strings&difficulty=Basic&sortBy=submissions
+     * https://www.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1
      */
 
     public static void main(String[] args) {
@@ -14,25 +14,6 @@ public class _5MinMaxGfg {
     }
 
     // Time Complexity: O(n), Space Complexity: O(1)
-    private static ArrayList<Integer> findMinMax(int[] arr) {
-        ArrayList<Integer> al = new ArrayList<>();
-        int min = Integer.MAX_VALUE;
-        int max = Integer.MIN_VALUE;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < min) {
-                min = arr[i];
-            }
-
-            if (arr[i] > max) {
-                max = arr[i];
-            }
-        }
-
-        al.add(min);
-        al.add(max);
-        return al;
-    }
-
     private static ArrayList<Integer> findMinMaxOptimal(int[] arr) {
         ArrayList<Integer> al = new ArrayList<>();
 
@@ -56,4 +37,25 @@ public class _5MinMaxGfg {
         al.add(max);
         return al;
     }
+
+    // Time Complexity: O(n), Space Complexity: O(1)
+    private static ArrayList<Integer> findMinMax(int[] arr) {
+        ArrayList<Integer> al = new ArrayList<>();
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+
+        al.add(min);
+        al.add(max);
+        return al;
+    }
+
 }

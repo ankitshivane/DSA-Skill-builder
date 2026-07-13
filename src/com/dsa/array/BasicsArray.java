@@ -80,12 +80,19 @@ public class BasicsArray {
         return Integer.MAX_VALUE;
     }
 
-    static int checkIfElePresentInRangeV2(int[] arr, int target, int startIndex, int endIndex) {
-        for (int i = startIndex; i <= endIndex; i++) {
-            if (arr[i] == target)
-                return i;
+    public boolean checkElements(int start, int end, int[] arr,int target) {
+        // code here
+        int n=arr.length;
+        if(end>n || (start<0 || start>n)){
+            return false;
         }
-        return Integer.MAX_VALUE;
+
+        for(int i=0;i<n;i++){
+            if((i>=start && i<=end) && arr[i]==target){
+                return true;
+            }
+        }
+        return false;
     }
 
     static int findMin(int[] arr) {
