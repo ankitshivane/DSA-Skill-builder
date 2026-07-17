@@ -29,4 +29,6 @@
 * https://www.geeksforgeeks.org/dsa/bits-manipulation-important-tactics/
 * https://leetcode.com/discuss/post/1688903/solved-all-two-pointers-problems-in-100-z56cn/
 * https://daily.dev/posts/19-30-days-system-design-questions--5nmnjh8a4
-
+* [algomaster_dsa_by_animation](https://algomaster.io/animations/dsa)
+* [visualgo](https://visualgo.net/en)
+* [DSALGO-VISUALIZER](https://github.com/jhabarsingh/DSALGO-VISUALIZER)
