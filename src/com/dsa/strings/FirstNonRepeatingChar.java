@@ -9,6 +9,7 @@ public class FirstNonRepeatingChar {
         firstNonRepeatingChar1(s);
         firstNonRepeatingChar2(s);
         firstNonRepeatingChar3(s);
+        System.out.println(firstNonRepeating(s));
     }
 
     // optimal
@@ -55,5 +56,21 @@ public class FirstNonRepeatingChar {
                 break;
             }
         }
+    }
+
+    private static char firstNonRepeating(String str) {
+        int[] arr = new int[26];
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            arr[ch - 'a']++;
+        }
+
+        for (int i = 0; i < str.length(); i++) {
+            if (arr[str.charAt(i) - 'a'] == 1) {
+                return str.charAt(i);
+            }
+        }
+
+        return ' ';
     }
 }
